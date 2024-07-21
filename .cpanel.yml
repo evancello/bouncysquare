@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=~/public_html/bouncysquare
+    - /bin/cp -R *.css *.html *.js $DEPLOYPATH
